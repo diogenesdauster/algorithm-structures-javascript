@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StackComponent from './components/StackComponent';
 
 class App extends Component {
   render() {
@@ -20,6 +21,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <StackComponent/>
+
       </div>
     );
   }

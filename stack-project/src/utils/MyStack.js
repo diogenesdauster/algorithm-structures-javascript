@@ -1,4 +1,3 @@
-
 function MyStack(){
   let items = [];
 
